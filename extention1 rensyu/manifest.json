@@ -19,10 +19,6 @@
     {
       "matches": ["https://www2.kobe-u.ac.jp/~tnishida/programming/*"],
       "js": ["content_script3.js"]
-    },
-    {
-      "matches": ["https://elaws.e-gov.go.jp/*"],
-      "js": ["content_script4.js"]
     }
   ]
 }
