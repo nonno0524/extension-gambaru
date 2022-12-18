@@ -5,24 +5,8 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://tabelog.com/*"],
-      "js": ["content_script.js"]
-    },
-    {
-      "matches": ["https://outlook.office.com/mail/*"],
-      "css": ["mystyle.css"]
-    },
-    {
-      "matches": ["https://www2.kobe-u.ac.jp/~tnishida/programming/*"],
-      "js": ["content_script2.js"]
-    },
-    {
-      "matches": ["https://www2.kobe-u.ac.jp/~tnishida/programming/*"],
-      "js": ["content_script3.js"]
-    },
-    {
       "matches": ["https://elaws.e-gov.go.jp/*"],
-      "js": ["content_script4.js"]
+      "js": ["content_script.js"]
     }
   ]
 }
