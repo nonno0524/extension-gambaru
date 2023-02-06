@@ -1,0 +1,17 @@
+{
+    "name": "DRAGON QUEST Dictionary tidying up",
+    "description": "Remove Unnecessary Parts from ドラクエ辞典 etc.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches":["https://wikiwiki.jp/dqdic3rd/*"],
+        "js": ["content_script1.js"]
+      },
+      {
+        "matches":["https://wikiwiki.jp/dqdic3rd/"],
+        "js":["content_script2.js"]
+      }
+    ]
+  }
+  
